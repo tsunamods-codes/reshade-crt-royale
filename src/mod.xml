@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>4e735663-c755-4d56-a85e-733715678232</ID>
+  <Name>[Tsunamods] ReShade CRT-Royale</Name>
+  <Category>ReShade Shaders</Category>
+  <Author>Tsunamods + akgunter</Author>
+  <Version>${MOD_VERSION}</Version>
+  <Description>
+    A ReShade mod that will provide CRT Royale.
+
+    See the mod link for more information.
+  </Description>
+  <ReleaseNotes />
+  <ReleaseDate>2025-08-15</ReleaseDate>
+  <Link>https://github.com/tsunamods-codes/reshade-crt-royale</Link>
+  <DonationLink />
+  <FFNxConfig />
+  <Variables />
+</ModInfo>
