@@ -2,7 +2,7 @@
 <ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ID>4e735663-c755-4d56-a85e-733715678232</ID>
   <Name>[Tsunamods] ReShade CRT-Royale</Name>
-  <Category>ReShade Shaders</Category>
+  <Category>Shaders</Category>
   <Author>Tsunamods + akgunter</Author>
   <Version>${MOD_VERSION}</Version>
   <Description>
