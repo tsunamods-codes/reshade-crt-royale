@@ -163,25 +163,25 @@
 float4 encode_output_opaque(const float4 color, const float gamma)
 {
     static const float3 g = 1.0 / float3(gamma, gamma, gamma);
-    return float4(pow(color.rgb, g), 1);
+    return float4(pow(max(color.rgb, 0.0), g), 1);
 }
 
 float4 decode_input_opaque(const float4 color, const float gamma)
 {
     static const float3 g = float3(gamma, gamma, gamma);
-    return float4(pow(color.rgb, g), 1);
+    return float4(pow(max(color.rgb, 0.0), g), 1);
 }
 
 float4 encode_output(const float4 color, const float gamma)
 {
     static const float3 g = 1.0 / float3(gamma, gamma, gamma);
-    return float4(pow(color.rgb, g), color.a);
+    return float4(pow(max(color.rgb, 0.0), g), color.a);
 }
 
 float4 decode_input(const float4 color, const float gamma)
 {
     static const float3 g = float3(gamma, gamma, gamma);
-    return float4(pow(color.rgb, g), color.a);
+    return float4(pow(max(color.rgb, 0.0), g), color.a);
 }
 
 ///////////////////////////  TEXTURE LOOKUP WRAPPERS  //////////////////////////
